@@ -1,0 +1,21 @@
+.nav__dropdown{
+    color: #fff;
+    height: 3.125rem;
+    width: 9.375rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 2.5rem;
+    top: 4.375rem;
+    background: rgba(0, 0, 0, 0.4);
+    transform: translateY(-10px);
+  }
+  
+  .nav__dropdown > li{
+    cursor: pointer;
+  }
+  
+  .nav__dropdown > li:hover{
+    color: #e50914;
+  }
